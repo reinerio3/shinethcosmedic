@@ -1,12 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Parallax } from 'react-parallax';
-import gsap from 'gsap';
 import * as THREE from 'three';
 
 const ImpactfulContent = () => {
   const canvasRef = useRef(null);
-  const sceneRef = useRef(null);
+  //const sceneRef = useRef(null);
 
   // Configuración de Three.js para efectos 3D
   useEffect(() => {

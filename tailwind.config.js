@@ -302,7 +302,10 @@ module.exports = {
       0: '0',
       DEFAULT: '1',
     },
-    fontFamily: {
+      fontFamily: {
+      apollo: ['Apollo', 'sans-serif'],
+    },
+    /*fontFamily: {
       sans: [
         'ui-sans-serif',
         'system-ui',
@@ -323,7 +326,7 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
-    },
+    },*/
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],

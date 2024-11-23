@@ -10,6 +10,9 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Store from './pages/Store';
 import Info from './pages/Info';
+import Availability from './components/Availability';
+import More from './pages/More';
+//import Payment from './components/Payment';
 
 const App = () => {
   return (
@@ -30,6 +33,9 @@ const App = () => {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/store" element={<Store />} />
                 <Route path="/info" element={<Info />} />
+                <Route path="/availability" element={<Availability />} />
+                <Route path="/more" element={<More />} />
+                
               </Routes>
               
             </CSSTransition>

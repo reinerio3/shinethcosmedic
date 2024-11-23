@@ -2,9 +2,9 @@ import React from 'react';
 import { useState, useRef, useEffect } from "react";
 import '../Styles/Home.css';
 
-//import { FaInstagram } from "react-icons/fa6";
-//import { FaTiktok } from "react-icons/fa";
-//import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa6";
 import Carousel from '../components/Carousel';
 
 
@@ -64,7 +64,7 @@ const Home = () => {
 
       <div className="bg-white">
       {/* Sección de Productos */}
-      <section className="py-16">
+      <section className="py-16 font-apollo">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8">Our Products</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -154,7 +154,7 @@ const Home = () => {
 
 
       {/* Sección de Servicios */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-100 font-apollo">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -275,7 +275,7 @@ const Home = () => {
           <Carousel />
         </div>
       </section>
-      <section className="py-16 bg-white text-gray-800">
+      <section className="py-16 bg-white text-gray-800 font-apollo">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-extrabold mb-12 text-gray-800">
             Frequently Asked Questions
@@ -324,7 +324,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-100 font-apollo">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8">Contact us at</h2>
           <p className="text-lg mb-4">
@@ -365,7 +365,7 @@ const Home = () => {
                       "bounceSpin 2s infinite ease-in-out, pulseBorder 2s infinite ease-in-out",
                   }}
                 >
-                  {/*<FaFacebook size={24} />*/}
+                  <FaFacebook size={24} />
                 </a>
                 <a
                   href="https://www.instagram.com/shinethcosmedic/"
@@ -377,7 +377,7 @@ const Home = () => {
                       "bounceSpin 2s infinite ease-in-out, pulseBorder 2s infinite ease-in-out",
                   }}
                 >
-                  {/*<FaInstagram size={24} />*/}
+                  <FaInstagram size={24} />
                 </a>
                 <a
                   href="https://www.tiktok.com/@shineth.cosmedic"
@@ -389,7 +389,7 @@ const Home = () => {
                       "bounceSpin 2s infinite ease-in-out, pulseBorder 2s infinite ease-in-out",
                   }}
                 >
-                  {/*<FaTiktok size={24} />*/}
+                  <FaTiktok size={24} />
                 </a>
               </div>
             </div>
@@ -437,7 +437,7 @@ const Home = () => {
         </div>
       </section>
 
-      <footer className="bg-gradient-to-r from-pink-500 to-purple-500 text-white py-6 text-center">
+      <footer className="bg-gradient-to-r from-pink-500 to-purple-500 text-white py-6 text-center font-apollo">
         <p>
           &copy; {new Date().getFullYear()} Shineth All rights reserved.
         </p>

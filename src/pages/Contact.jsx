@@ -12,7 +12,7 @@ const Contact = () => {
         bgImageAlt="fondo impactante"
         strength={500}
       >
-        <div className="p-16">
+        <div className="p-16 top-12">
           <div className="text-center text-white relative z-10">
             {/* Título Animado 3D */}
             <motion.h1

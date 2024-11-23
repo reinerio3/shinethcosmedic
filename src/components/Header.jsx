@@ -42,6 +42,8 @@ const Header = () => {
           <li><Link to="/Store">Store</Link></li>
           <li><Link to="/Contact">Contact Us</Link></li>
           <li><Link to="/Info">Info</Link></li>
+          <li><Link to="/Availability">Book Now</Link></li>
+          <li><Link to="/More">More</Link></li>
           <li 
             className="menu-item"
             onMouseEnter={toggleSubMenu}
